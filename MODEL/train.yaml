@@ -1,0 +1,22 @@
+
+path: .
+train: images/train
+val: images/validation
+test: images/test
+
+# Classes
+names:
+  0: vehicle
+  1: vehicle
+  2: vehicle
+  3: vehicle
+  4: vehicle
+  5: vehicle
+  6: vehicle
+  7: vehicle
+  8: vehicle
+  9: vehicle
+  10: vehicle
+  11: vehicle
+  12: vehicle
+
