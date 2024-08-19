@@ -6,13 +6,13 @@ Controlador de tráfico inteligente, capaz de controlar los semáforos de una in
 
 ### Integrantes:
 
-- Joanine Córdova Vásquez
+- Joanine Córdova Vázquez
 - Luis Iván Rico Amezcua
 - Eduardo Daniel Urbina Campos
 
 ## Requerimientos
 
-__Nota__: se requiere Python 3.10
+__Nota__: se utiliza Python 3.10
 
 Requerimientos:
 
@@ -22,7 +22,7 @@ Requerimientos:
 - ultralytics 8.2.78
 - uvicorn 0.27.1
 
-Comando para su instalación utilizando [requirements.txt](https://github.com/00urbina00/STA/blob/main/requirements/requirements.txt%2B):
+Comando para su instalación utilizando [requirements.txt](https://github.com/00urbina00/STA/blob/main/requirements/requirements.txt):
 
     pip3 install -r requirements.txt
 
