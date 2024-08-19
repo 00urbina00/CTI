@@ -36,7 +36,7 @@ class Detector:
             if cls in self.ball_classes:  # Verificar si la clase está en la lista de clases de pelotas
                 x1, y1, x2, y2 = map(int, box.xyxy[0])  # Obtener las coordenadas de la caja
                 conf = box.conf[0]  # Obtener la confianza de la detección
-                label = f"Ball: {conf:.2f}"  # Crear la etiqueta de la caja
+                label = f"obj: {conf:.2f}"  # Crear la etiqueta de la caja
 
                 # Dibujar la caja y la etiqueta en la imagen
                 cv2.rectangle(img_with_boxes, (x1, y1), (x2, y2), (0, 255, 0), 2)
